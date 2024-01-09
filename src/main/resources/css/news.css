@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-news{
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.box-news{
+    margin-top: 25px;
+    display: flex;
+}
+.box-news a{
+    text-decoration: none;
+}
+
+.item-news{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.search-news{
+    width: 30%;
+}
+.news{
+    width: 30%;
+    position: relative;
+    box-shadow: 0px 3px 8px -2px #b3b1b1;
+    transition: all 0.4s ease;
+    margin-right: 20px;
+    height: 60%;
+
+}
+
+.img-news{
+    width: 100%;
+}
+.img-news img{
+    width: 100%;
+}
+.content-news{
+    padding: 15px;
+
+}
+.header-content-news{
+    color: #1C1C1C;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+}
+.header-content-news::after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #e1e1e1;
+}
+.comment-news{
+    color: #616161;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding-right: 11px;
+    transition: all 0.4s ease;
+}
+.news::after{
+    content: "15 Th1";
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border: 4px solid #fff822;
+    font-size: 16px;
+    color: #fff822;
+    line-height: 1.2;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.news:hover .comment-news{
+    color: turquoise;
+    transition: all 0.4s ease;
+}
+.news:hover.news::after{
+    background-color: #fff822;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+.news:hover.news{
+    box-shadow: 2px 5px 10px 0px #b3b1b1;
+    transition: all 0.4s ease;
+}
+.search-news{
+    padding-left: 30px;
+}
+.box-search{
+    display: flex;
+}
+.ip-search input{
+    height: 40px;
+    border: none;
+    border: 1px solid #e0e0e0;
+    padding-left: 10px;
+}
+.ip-search input:focus{
+    outline: none;
+    box-shadow: rgb(227, 215, 215) 0px 0px 5px 0px;
+}
+.btn-search{
+    margin-top: 0px;
+}
+.btn-search button{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(227, 0, 80);
+    border: none;
+    box-shadow: rgb(227, 0, 80) 0px 0px 3px 1px;
+}
+.btn-search button:hover{
+    background-color: #8a0030;
+}
+.btn-search button i{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.new-posts{
+    margin-top: 10px;
+}
+.header-new-posts{
+    text-transform: uppercase;
+    color:#1C1C1C;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0;
+    position: relative;
+}
+.header-new-posts::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #dbdbdb;
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+}
+.box-new-posts{
+    margin-top: 10px;
+    width: 100%;
+}
+.item-new-posts{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.item-new-posts::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #d5d5d5;
+    bottom: -15px;
+    left: 0;
+}
+.img-new-posts{
+    width: 100px;
+    height: 60px;
+    position: relative;
+
+}
+.img-new-posts img{
+    width: 100%;
+    height: 60px;
+    width:60px
+}
+.img-new-posts::after{
+    content: "15 Th1";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.content-new-posts{
+    padding: 0px 25px;
+}
+.content-new-posts a{
+    color: #1C1C1C;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
